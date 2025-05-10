@@ -1,1 +1,1 @@
-select * from airline.airplane;
+select * from MyUinversity.Course;
