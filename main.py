@@ -13,7 +13,7 @@ def run_query(cursor, file_name):
     return pd.DataFrame.from_records(data, columns=cols)
 
 def main():
-    options = ['', 'Student.sql', 'Course.sql', 'query3.sql', 'exit']
+    options = ['', 'student.sql', 'courses.sql', 'query3.sql', 'exit']
 
     conn = DBConnector.DBConnector(connectionType="MySQL").getConnection()
     cursor = conn.cursor()
