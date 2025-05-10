@@ -1,1 +1,1 @@
-select * from MyUinversity.Course;
+select * from MyUniversity.Course;
