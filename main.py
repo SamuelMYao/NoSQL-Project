@@ -35,6 +35,7 @@ def main():
     elif selected_query:
         file_name = f"sql/{selected_query}"
         df = run_query(cursor, file_name)
+        df.pivot
         st.dataframe(df)
 
 # Ensures main() runs only when this script is executed directly, not when imported
